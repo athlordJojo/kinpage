@@ -1,0 +1,148 @@
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\CityTest.exe
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\CityTest.pdb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\obj\x86\Debug\CityTest.exe
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\obj\x86\Debug\CityTest.pdb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\fire.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\smoke.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\explosion1.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\dust.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage1.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage1.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage2.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage3.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage4.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage2.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage3.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person1.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person2.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person3.xnb
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTest\bin\x86\Debug\Content\background\street.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\fire.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\smoke.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage1.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\explosion1.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\dust.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage1.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage2.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage3.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage4.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage2.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage3.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person1.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person2.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person3.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\background\street.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\body.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Fist.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Foot.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Hand.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\head.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\UpperArm.xnb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Kinampage.exe
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\bin\x86\Debug\Kinampage.pdb
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\obj\x86\Debug\Kinampage.exe
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTest\obj\x86\Debug\Kinampage.pdb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\fire.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\smoke.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage1.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\explosion1.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\dust.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage1.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage2.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage3.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage4.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage2.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage3.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person1.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person2.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person3.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\background\street.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\body.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Fist.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Foot.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Hand.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\head.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\UpperArm.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Kinampage.exe
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Kinampage.pdb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\obj\x86\Debug\Kinampage.exe
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\obj\x86\Debug\Kinampage.pdb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building1.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building2.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Leg.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead1.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead2.xnb
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead3.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\fire.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\smoke.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage1.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\explosion1.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\dust.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage1.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage2.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage3.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage4.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage2.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage3.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person1.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person2.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person3.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\background\street.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\body.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Fist.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Foot.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Hand.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\head.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\UpperArm.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building1.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building2.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Leg.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead1.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead2.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead3.xnb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Kinampage.exe
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Kinampage.pdb
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\obj\x86\Debug\Kinampage.exe
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\obj\x86\Debug\Kinampage.pdb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\fire.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\smoke.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage1.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\explosion1.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\dust.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage1.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage2.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage3.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage4.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage2.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage3.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person1.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person2.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person3.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\background\street.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\body.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Fist.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Foot.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Hand.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\head.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\UpperArm.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building1.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building2.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Leg.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead1.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead2.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead3.xnb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Kinampage.exe
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Kinampage.pdb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\obj\x86\Debug\Kinampage.exe
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\obj\x86\Debug\Kinampage.pdb
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTest\bin\x86\Debug\Content\shader.xnb
