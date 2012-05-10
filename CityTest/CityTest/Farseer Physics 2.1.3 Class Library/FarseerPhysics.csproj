@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95B40504-C1C2-4FCD-98B3-B63AD35D6336}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FarseerGames.FarseerPhysics</RootNamespace>
+    <AssemblyName>FarseerPhysics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRules>-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1045;-Microsoft.Design#CA1034;-Microsoft.Design#CA1025;-Microsoft.Design#CA1024;-Microsoft.Maintainability#CA1500;-Microsoft.Naming#CA1702;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1704;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1710;-Microsoft.Performance#CA1822;-Microsoft.Usage#CA2225</CodeAnalysisRules>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRules>-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1045;-Microsoft.Design#CA1034;-Microsoft.Design#CA1025;-Microsoft.Design#CA1024;-Microsoft.Maintainability#CA1500;-Microsoft.Naming#CA1702;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1704;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1710;-Microsoft.Performance#CA1822;-Microsoft.Usage#CA2225</CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collisions\AABB.cs" />
+    <Compile Include="Collisions\BruteForceCollider.cs" />
+    <Compile Include="Collisions\CollisionIdGenerator.cs" />
+    <Compile Include="Collisions\Contact.cs" />
+    <Compile Include="Collisions\ContactId.cs" />
+    <Compile Include="Collisions\ContactList.cs" />
+    <Compile Include="Collisions\DistanceGrid.cs" />
+    <Compile Include="Collisions\Feature.cs" />
+    <Compile Include="Collisions\Geom.cs" />
+    <Compile Include="Collisions\GeomPairBitmap.cs" />
+    <Compile Include="Collisions\RayHelper.cs" />
+    <Compile Include="Collisions\SAT.cs" />
+    <Compile Include="Collisions\SelectiveSweepCollider.cs" />
+    <Compile Include="Collisions\SpatialHashCollider.cs" />
+    <Compile Include="Collisions\SweepAndPruneCollider.cs" />
+    <Compile Include="Collisions\Vertices.cs" />
+    <Compile Include="Controllers\AABBFluidContainer.cs" />
+    <Compile Include="Controllers\Controller.cs" />
+    <Compile Include="Controllers\ControllerList.cs" />
+    <Compile Include="Controllers\FluidDragController.cs" />
+    <Compile Include="Controllers\GravityController.cs" />
+    <Compile Include="Controllers\InactivityController.cs" />
+    <Compile Include="Controllers\ScalingController.cs" />
+    <Compile Include="Controllers\WaveController.cs" />
+    <Compile Include="Dynamics\Arbiter.cs" />
+    <Compile Include="Dynamics\ArbiterList.cs" />
+    <Compile Include="Dynamics\Body.cs" />
+    <Compile Include="Dynamics\Curve.cs" />
+    <Compile Include="Dynamics\Joints\AngleJoint.cs" />
+    <Compile Include="Dynamics\Joints\AngleLimitJoint.cs" />
+    <Compile Include="Dynamics\Joints\FixedAngleJoint.cs" />
+    <Compile Include="Dynamics\Joints\FixedAngleLimitJoint.cs" />
+    <Compile Include="Dynamics\Joints\FixedRevoluteJoint.cs" />
+    <Compile Include="Dynamics\Joints\Joint.cs" />
+    <Compile Include="Dynamics\Joints\JointList.cs" />
+    <Compile Include="Dynamics\Joints\PinJoint.cs" />
+    <Compile Include="Dynamics\Joints\RevoluteJoint.cs" />
+    <Compile Include="Dynamics\Joints\SliderJoint.cs" />
+    <Compile Include="Dynamics\Joints\WeldJoint.cs" />
+    <Compile Include="Dynamics\Path.cs" />
+    <Compile Include="Dynamics\Springs\AngleSpring.cs" />
+    <Compile Include="Dynamics\Springs\FixedAngleSpring.cs" />
+    <Compile Include="Dynamics\Springs\FixedLinearSpring.cs" />
+    <Compile Include="Dynamics\Springs\LinearSpring.cs" />
+    <Compile Include="Dynamics\Springs\Spring.cs" />
+    <Compile Include="Dynamics\Springs\SpringList.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Factories\BodyFactory.cs" />
+    <Compile Include="Factories\ComplexFactory.cs" />
+    <Compile Include="Factories\ControllerFactory.cs" />
+    <Compile Include="Factories\GeomFactory.cs" />
+    <Compile Include="Factories\JointFactory.cs" />
+    <Compile Include="Factories\SpringFactory.cs" />
+    <Compile Include="GenericList.cs" />
+    <Compile Include="Interfaces\IBroadPhaseCollider.cs" />
+    <Compile Include="Interfaces\IFluidContainer.cs" />
+    <Compile Include="Interfaces\IIsDisposable.cs" />
+    <Compile Include="Interfaces\INarrowPhaseCollider.cs" />
+    <Compile Include="Mathematics\BilinearInterpolator.cs" />
+    <Compile Include="Mathematics\Calculator.cs" />
+    <Compile Include="Mathematics\CircularInterpolator.cs" />
+    <Compile Include="Mathematics\ConvertUnits.cs" />
+    <Compile Include="Mathematics\MathHelper.cs" />
+    <Compile Include="Mathematics\Matrix.cs" />
+    <Compile Include="Mathematics\Vector2.cs" />
+    <Compile Include="Mathematics\Vector3.cs" />
+    <Compile Include="PhysicsSimulator.cs" />
+    <Compile Include="Pool.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

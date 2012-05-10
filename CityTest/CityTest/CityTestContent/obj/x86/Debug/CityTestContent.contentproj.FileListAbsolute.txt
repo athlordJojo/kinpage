@@ -1,0 +1,6 @@
+C:\Users\Latsche\Documents\Visual Studio 2010\Projects\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\icke\Desktop\KinampgaCode\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
