@@ -16,6 +16,7 @@ namespace Kinampage
         public static AnimatedTexture smoke;
         public static AnimatedTexture explosion1;
         public static AnimatedTexture dust;
+        
 
         public static List<AnimatedTexture> wreckages = new List<AnimatedTexture>();
         public static List<AnimatedTexture> garbages = new List<AnimatedTexture>();
@@ -23,7 +24,7 @@ namespace Kinampage
         public static List<AnimatedTexture> buildings = new List<AnimatedTexture>();
         public static List<AnimatedTexture> peopleDead = new List<AnimatedTexture>();
 
-        public static Texture2D head, body, fist, hand, arm, foot, leg; 
+        public static Texture2D head, body, fist, hand, arm, foot, leg, wolfhead; 
 
         //backgrounnd
         public static AnimatedTexture street;
@@ -79,6 +80,7 @@ namespace Kinampage
             arm = Content.Load<Texture2D>("player/upperarm");
             foot = Content.Load<Texture2D>("player/foot");
             leg = Content.Load<Texture2D>("player/leg");
+            wolfhead = Content.Load<Texture2D>("player/wolfdoof");
 
             //Backgrounds
             GraphicsUtil.street.Load(Content, "background/street", 1, 1);

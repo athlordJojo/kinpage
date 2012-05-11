@@ -52,6 +52,7 @@ namespace Kinampage
             //head body
             drawBodyPartNoRotation(sb, playerSkeleton.Joints[JointType.ShoulderCenter], GraphicsUtil.body, 0.5f, false, new Vector2(5, 70), 0.88f);
             drawBodyPartNoRotation(sb, playerSkeleton.Joints[JointType.Head], GraphicsUtil.head, 0.7f, false, new Vector2(25, 20), 0.87f);
+            //drawBodyPartNoRotation(sb, playerSkeleton.Joints[JointType.Head], GraphicsUtil.wolfhead, 0.7f, false, new Vector2(50, 30), 0.87f);
             //Draw Legs
             drawBodyPartMiddle(sb, playerSkeleton.Joints[JointType.HipRight], playerSkeleton.Joints[JointType.FootRight], GraphicsUtil.leg, 0.5f, false, 0.84f);
             drawBodyPartMiddle(sb, playerSkeleton.Joints[JointType.HipLeft], playerSkeleton.Joints[JointType.FootLeft], GraphicsUtil.leg, 0.5f, true,0.84f);

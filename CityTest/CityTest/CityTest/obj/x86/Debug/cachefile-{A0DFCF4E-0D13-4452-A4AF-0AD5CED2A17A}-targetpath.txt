@@ -25,7 +25,6 @@ Content\player\Leg.xnb
 Content\people\dead\persondead1.xnb
 Content\people\dead\persondead2.xnb
 Content\people\dead\persondead3.xnb
-Content\shader.xnb
 Content\people\person4.xnb
 Content\people\person5.xnb
 Content\people\person6.xnb
@@ -36,3 +35,5 @@ Content\people\dead\persondead5.xnb
 Content\people\dead\persondead6.xnb
 Content\people\dead\persondead7.xnb
 Content\people\dead\persondead8.xnb
+Content\shader.xnb
+Content\player\wolfdoof.xnb

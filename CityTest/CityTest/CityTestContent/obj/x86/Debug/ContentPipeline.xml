@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\fire.xnb</Output>
-      <Time>2012-05-07T17:56:15.1708984+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>smoke.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\smoke.xnb</Output>
-      <Time>2012-05-07T17:56:15.1943359+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>wreckage\wreckage1.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage1.xnb</Output>
-      <Time>2012-05-07T17:56:15.1953125+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>explosion1.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\explosion1.xnb</Output>
-      <Time>2012-05-07T17:56:15.1669922+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>dust.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\dust.xnb</Output>
-      <Time>2012-05-07T17:56:15.1660156+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>garbage\garbage1.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage1.xnb</Output>
-      <Time>2012-05-07T17:56:15.171875+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>wreckage\wreckage2.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage2.xnb</Output>
-      <Time>2012-05-07T17:56:15.1953125+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>wreckage\wreckage3.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage3.xnb</Output>
-      <Time>2012-05-07T17:56:15.196289+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>wreckage\wreckage4.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage4.xnb</Output>
-      <Time>2012-05-07T17:56:15.2001953+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>garbage\garbage2.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage2.xnb</Output>
-      <Time>2012-05-07T17:56:15.171875+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>garbage\garbage3.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage3.xnb</Output>
-      <Time>2012-05-07T17:56:15.1728515+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>people\person1.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person1.xnb</Output>
-      <Time>2012-05-09T20:46:10.1455078+02:00</Time>
+      <Time>2012-05-09T20:46:10+02:00</Time>
     </Item>
     <Item>
       <Source>people\person2.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person2.xnb</Output>
-      <Time>2012-05-09T20:46:11.5185546+02:00</Time>
+      <Time>2012-05-09T20:46:11+02:00</Time>
     </Item>
     <Item>
       <Source>people\person3.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person3.xnb</Output>
-      <Time>2012-05-09T20:46:12.78125+02:00</Time>
+      <Time>2012-05-09T20:46:12+02:00</Time>
     </Item>
     <Item>
       <Source>background\street.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\background\street.xnb</Output>
-      <Time>2012-05-09T20:55:34.8945312+02:00</Time>
+      <Time>2012-05-09T20:55:34+02:00</Time>
     </Item>
     <Item>
       <Source>player\body.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\body.xnb</Output>
-      <Time>2012-05-07T17:56:15.1875+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>player\Fist.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Fist.xnb</Output>
-      <Time>2012-05-07T17:56:15.1845703+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>player\Foot.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Foot.xnb</Output>
-      <Time>2012-05-07T17:56:15.1855468+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>player\Hand.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Hand.xnb</Output>
-      <Time>2012-05-07T17:56:15.1855468+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>player\head.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\head.xnb</Output>
-      <Time>2012-05-07T17:56:15.1914062+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>player\UpperArm.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\UpperArm.xnb</Output>
-      <Time>2012-05-07T17:56:15.1865234+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>building\building1.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building1.xnb</Output>
-      <Time>2012-05-07T17:56:15.165039+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>building\building2.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building2.xnb</Output>
-      <Time>2012-05-07T17:56:15.1660156+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>player\Leg.png</Source>
@@ -215,7 +215,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Leg.xnb</Output>
-      <Time>2012-05-07T17:56:15.1865234+02:00</Time>
+      <Time>2012-05-07T17:56:15+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead1.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead1.xnb</Output>
-      <Time>2012-05-09T20:46:19.508789+02:00</Time>
+      <Time>2012-05-09T20:46:19+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead2.png</Source>
@@ -233,7 +233,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead2.xnb</Output>
-      <Time>2012-05-09T20:46:19.5126953+02:00</Time>
+      <Time>2012-05-09T20:46:19+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead3.png</Source>
@@ -242,16 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead3.xnb</Output>
-      <Time>2012-05-09T20:46:19.515625+02:00</Time>
-    </Item>
-    <Item>
-      <Source>shader.fx</Source>
-      <Name>shader</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\shader.xnb</Output>
-      <Time>2012-05-07T17:56:15.1923828+02:00</Time>
+      <Time>2012-05-09T20:46:19+02:00</Time>
     </Item>
     <Item>
       <Source>people\person4.png</Source>
@@ -260,7 +251,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person4.xnb</Output>
-      <Time>2012-05-09T20:46:12.7861328+02:00</Time>
+      <Time>2012-05-09T20:46:12+02:00</Time>
     </Item>
     <Item>
       <Source>people\person5.png</Source>
@@ -269,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person5.xnb</Output>
-      <Time>2012-05-09T20:46:12.790039+02:00</Time>
+      <Time>2012-05-09T20:46:12+02:00</Time>
     </Item>
     <Item>
       <Source>people\person6.png</Source>
@@ -278,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person6.xnb</Output>
-      <Time>2012-05-09T20:46:12.7929687+02:00</Time>
+      <Time>2012-05-09T20:46:12+02:00</Time>
     </Item>
     <Item>
       <Source>people\person7.png</Source>
@@ -287,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person7.xnb</Output>
-      <Time>2012-05-09T20:46:12.796875+02:00</Time>
+      <Time>2012-05-09T20:46:12+02:00</Time>
     </Item>
     <Item>
       <Source>people\person8.png</Source>
@@ -296,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person8.xnb</Output>
-      <Time>2012-05-09T20:46:12.7998046+02:00</Time>
+      <Time>2012-05-09T20:46:12+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead4.png</Source>
@@ -305,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead4.xnb</Output>
-      <Time>2012-05-09T20:46:19.5195312+02:00</Time>
+      <Time>2012-05-09T20:46:19+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead5.png</Source>
@@ -314,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead5.xnb</Output>
-      <Time>2012-05-09T20:46:19.5234375+02:00</Time>
+      <Time>2012-05-09T20:46:19+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead6.png</Source>
@@ -323,7 +314,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead6.xnb</Output>
-      <Time>2012-05-09T20:46:19.5263671+02:00</Time>
+      <Time>2012-05-09T20:46:19+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead7.png</Source>
@@ -332,7 +323,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead7.xnb</Output>
-      <Time>2012-05-09T20:46:19.5292968+02:00</Time>
+      <Time>2012-05-09T20:46:19+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead8.png</Source>
@@ -341,7 +332,25 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead8.xnb</Output>
-      <Time>2012-05-09T20:46:19.5322265+02:00</Time>
+      <Time>2012-05-09T20:46:19+02:00</Time>
+    </Item>
+    <Item>
+      <Source>shader.fx</Source>
+      <Name>shader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\shader.xnb</Output>
+      <Time>2012-05-07T17:56:15+02:00</Time>
+    </Item>
+    <Item>
+      <Source>player\wolfdoof.png</Source>
+      <Name>player\wolfdoof</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\wolfdoof.xnb</Output>
+      <Time>2012-05-10T14:32:16.4369178+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -357,31 +366,31 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2010-11-08T13:48:48.1298828+01:00</Value>
+        <Value>2011-10-12T16:36:49.1987564+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

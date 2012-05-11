@@ -93,16 +93,16 @@ namespace Kinampage
                 kinect.DepthStream.Enable(DepthImageFormat.Resolution640x480Fps30);
                 kinect.SkeletonStream.Enable(new TransformSmoothParameters()
                 {
-                    /*Smoothing = 0.9f,
+                    Smoothing = 0.9f,
                     Correction = 0.9f,//0.5
                     Prediction = 0.5f,
                     JitterRadius = 0.05f,
-                    MaxDeviationRadius = 0.04f*/
-                    Smoothing = 0.5f,
+                    MaxDeviationRadius = 0.04f
+                    /*Smoothing = 0.5f,
                     Correction = 0.2f,//0.5
                     Prediction = 0.5f,
                     JitterRadius = 0.05f,
-                    MaxDeviationRadius = 0.04f
+                    MaxDeviationRadius = 0.04f*/
                 });
                 kinect.AllFramesReady += new EventHandler<AllFramesReadyEventArgs>(allFramesReadyEventhandler);
                 kinect.Start();

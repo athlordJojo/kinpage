@@ -190,3 +190,4 @@ C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead5.
 C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead6.xnb
 C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead7.xnb
 C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead8.xnb
+C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\wolfdoof.xnb
