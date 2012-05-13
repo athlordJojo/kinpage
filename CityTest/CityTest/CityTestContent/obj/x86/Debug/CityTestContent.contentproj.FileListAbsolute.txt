@@ -4,3 +4,4 @@ C:\Users\icke\Desktop\KinampagePROJEKT\CityTest\CityTest\CityTestContent\obj\x86
 C:\Users\icke\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Joan\Dropbox\RayBu\Kinect\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\git\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\gitRep\CityTest\CityTest\CityTestContent\obj\x86\Debug\ResolveAssemblyReference.cache

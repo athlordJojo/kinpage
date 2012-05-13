@@ -127,7 +127,7 @@
     <Compile Include="ParticleSimulation\Emitter\Emitter.cs" />
     <Compile Include="ParticleSimulation\Emitter\ExplosionEmitter.cs" />
     <Compile Include="ParticleSimulation\Emitter\ShockwaveEmitter.cs" />
-    <Compile Include="ParticleSimulation\Particles\SmokeEmitter.cs" />
+    <Compile Include="ParticleSimulation\Emitter\SmokeEmitter.cs" />
     <Compile Include="ParticleSimulation\Particles\ExplosionParticle.cs" />
     <Compile Include="ParticleSimulation\Emitter\IEmitterable.cs" />
     <Compile Include="ParticleSimulation\Particles\IParticlable.cs" />

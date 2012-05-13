@@ -31,8 +31,8 @@ namespace Kinampage.GameSimulation
 
         private void createBuildings()
         {
-            buildingList.Add(new Building(new Vector2(170, 520), 6));
-            buildingList.Add(new Building(new Vector2(980, 520), 6));
+            buildingList.Add(new Building(new Vector2(150, 520), 6));
+            buildingList.Add(new Building(new Vector2(1000, 520), 5));
         }
 
         public void populate()
@@ -62,7 +62,7 @@ namespace Kinampage.GameSimulation
 
         public void update()
         {
-            if (isFirstUpdate)//erster Updte aufruf init game
+            if (isFirstUpdate)//erster Update aufruf init game
             {
                 isFirstUpdate = false;
                 firstUpdate();
@@ -82,17 +82,24 @@ namespace Kinampage.GameSimulation
 
                 p.update();
             }
+
+            //buildings
+            for (int i = 0; i < this.buildingList.Count; i++)
+            {
+                buildingList[i].update();
+            }
+
         }
 
         public void draw(SpriteBatch sp)
         {
-            //Console.WriteLine("people: " + this.peopleList.Count);
+            //Draw all People
             foreach (People p in this.peopleList)
             {
                 p.draw(sp);
             }
 
-            //draw Buildings
+            //draw all Buildings
             foreach (Building b in this.buildingList)
             {
                 b.draw(sp);
@@ -112,6 +119,10 @@ namespace Kinampage.GameSimulation
             }
         }
 
+
+        /// <summary>
+        /// check for playereffects like kick or bash for the hands/feet
+        /// </summary>
         public void playerEffects()
         {
             //HandBash player ground
@@ -130,8 +141,9 @@ namespace Kinampage.GameSimulation
         public void bash(Hand h)
         {
             float hSpeed = h.getHorizontalSpeed();
+            float speed = h.moveVector.Length();
             //hit ground
-            if (h.pos.Y > 620 && h.moveVector.Y > 10 && h.moveVector.Y > 0)
+            if (h.pos.Y > 620 && speed > 5)//.Y > 10 && h.moveVector.Y > 0
             {
                 EffectUtil.createShockwave(Game1.particleSimulator.psNoGrav, h.pos);
                 EffectUtil.createExplosion(Game1.particleSimulator.psGrav, h.pos, new Vector2(0, -4), new Vector2(6, 2), 2);
@@ -140,14 +152,15 @@ namespace Kinampage.GameSimulation
             }
 
             //hit house
-            if (hSpeed > 30)
+            if (hSpeed > 20)
             {
                 for (int i = 0; i < buildingList.Count; i++)
                 {
-                    if (buildingList[i].ishit(h.pos, 30, 200))
+                    Floor f = buildingList[i].ishit(h.pos, 30, 200);
+                    if (f != null)
                     {
-                        EffectUtil.createExplosionWithSmoke(Game1.particleSimulator.psGrav, h.pos, 2);
-                        EffectUtil.createExplosionWithSmoke(Game1.particleSimulator.psGrav, h.pos, -2);
+                        f.damage(10 + rand.Next(6));
+                        EffectUtil.createExplosionWithSmoke(Game1.particleSimulator.psGrav, h.pos, h.moveVector.X);
                     }
                 }
             }

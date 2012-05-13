@@ -16,15 +16,16 @@ namespace Kinampage
         public static AnimatedTexture smoke;
         public static AnimatedTexture explosion1;
         public static AnimatedTexture dust;
-        
 
         public static List<AnimatedTexture> wreckages = new List<AnimatedTexture>();
         public static List<AnimatedTexture> garbages = new List<AnimatedTexture>();
         public static List<AnimatedTexture> people = new List<AnimatedTexture>();
-        public static List<AnimatedTexture> buildings = new List<AnimatedTexture>();
+        public static List<AnimatedTexture> buildingsfront = new List<AnimatedTexture>();
+        public static List<AnimatedTexture> buildingsmid = new List<AnimatedTexture>();
+        public static List<AnimatedTexture> buildingsback = new List<AnimatedTexture>();
         public static List<AnimatedTexture> peopleDead = new List<AnimatedTexture>();
 
-        public static Texture2D head, body, fist, hand, arm, foot, leg, wolfhead; 
+        public static Texture2D head, body, fist, hand, arm, foot, leg; 
 
         //backgrounnd
         public static AnimatedTexture street;
@@ -57,10 +58,20 @@ namespace Kinampage
                 GraphicsUtil.people.Add(new AnimatedTexture(Vector2.Zero, 0, 1f, 0.6f));
                 GraphicsUtil.peopleDead.Add(new AnimatedTexture(Vector2.Zero, 0, 1f, 0.6f));
             }
-            //buildings
-            for (int i = 0; i < 2; i++)
+            //buildings front parts
+            for (int i = 0; i < 8; i++)
             {
-                GraphicsUtil.buildings.Add(new AnimatedTexture(Vector2.Zero, 0, 1f, 0.9f));
+                GraphicsUtil.buildingsfront.Add(new AnimatedTexture(Vector2.Zero, 0, 1f, 0.91f));
+            }
+            //buildings mid parts
+            for (int i = 0; i < 6; i++)
+            {
+                GraphicsUtil.buildingsmid.Add(new AnimatedTexture(Vector2.Zero, 0, 1f, 0.915f));
+            }
+            //buildings back
+            for (int i = 0; i < 4; i++)
+            {
+                GraphicsUtil.buildingsback.Add(new AnimatedTexture(Vector2.Zero, 0, 1f, 0.92f));
             }
             
         }
@@ -80,7 +91,6 @@ namespace Kinampage
             arm = Content.Load<Texture2D>("player/upperarm");
             foot = Content.Load<Texture2D>("player/foot");
             leg = Content.Load<Texture2D>("player/leg");
-            wolfhead = Content.Load<Texture2D>("player/wolfdoof");
 
             //Backgrounds
             GraphicsUtil.street.Load(Content, "background/street", 1, 1);
@@ -102,9 +112,21 @@ namespace Kinampage
                 GraphicsUtil.peopleDead[i].Load(Content, "people/dead/persondead" + (i + 1) + "", 1, 1);
             }
 
-            for (int i = 0; i < buildings.Count; i++)
+
+            //buildings front
+            for (int i = 0; i < buildingsfront.Count; i++)
             {
-                GraphicsUtil.buildings[i].Load(Content, "building/building" + (i + 1) + "", 1, 1);
+                GraphicsUtil.buildingsfront[i].Load(Content, "building/frontparts/part" + (i + 1) + "", 1, 1);//building1part
+            }
+            //buildings mid
+            for (int i = 0; i < buildingsmid.Count; i++)
+            {
+                GraphicsUtil.buildingsmid[i].Load(Content, "building/midparts/bpart" + (i + 1) + "", 1, 1);//building1part
+            }
+            //buildingsback
+            for (int i = 0; i < buildingsback.Count; i++)
+            {
+                GraphicsUtil.buildingsback[i].Load(Content, "building/backparts/backpart" + (i + 1) + "", 1, 1);
             }
         }
 
@@ -135,9 +157,48 @@ namespace Kinampage
             return (AnimatedTexture)peopleDead[i].Clone();
         }
 
-        public static AnimatedTexture getBuilding()
+        public static AnimatedTexture getBuildingFront(int i)
         {
-            return buildings[rand.Next(0, buildings.Count)];
+            if (i >= buildingsfront.Count) i = buildingsfront.Count -1;
+            return (AnimatedTexture)buildingsfront[i].Clone();
+        }
+
+        /// <summary>
+        /// returns all buildingFrontsparts
+        /// </summary>
+        /// <returns></returns>
+        public static List<AnimatedTexture> getBuildingFronts()
+        {
+            List<AnimatedTexture> tmpList = new List<AnimatedTexture>();
+            foreach (AnimatedTexture at in buildingsfront)
+            {
+                tmpList.Add((AnimatedTexture)at.Clone());
+            }
+
+            return tmpList;
+        }
+
+        public static AnimatedTexture getBuildingBack()
+        {
+            return (AnimatedTexture)buildingsback[rand.Next(1, buildingsback.Count)].Clone();
+        }
+
+        public static AnimatedTexture getBuildingBack(int i)
+        {
+            try
+            {
+                return (AnimatedTexture)buildingsback[i].Clone();
+            }
+            catch(Exception exc)
+            {
+                Console.WriteLine(exc);
+                return null;
+            }
+        }
+
+        public static AnimatedTexture getBuildingMid()
+        {
+            return (AnimatedTexture)buildingsmid[rand.Next(0, buildingsmid.Count)].Clone();
         }
     }
 }

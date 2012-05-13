@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\fire.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\fire.xnb</Output>
+      <Time>2012-05-13T19:23:46.1669921+02:00</Time>
     </Item>
     <Item>
       <Source>smoke.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\smoke.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\smoke.xnb</Output>
+      <Time>2012-05-13T19:23:46.1923828+02:00</Time>
     </Item>
     <Item>
       <Source>wreckage\wreckage1.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage1.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage1.xnb</Output>
+      <Time>2012-05-13T19:23:46.1923828+02:00</Time>
     </Item>
     <Item>
       <Source>explosion1.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\explosion1.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\explosion1.xnb</Output>
+      <Time>2012-05-13T19:23:46.165039+02:00</Time>
     </Item>
     <Item>
       <Source>dust.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\dust.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\dust.xnb</Output>
+      <Time>2012-05-13T19:23:46.1640625+02:00</Time>
     </Item>
     <Item>
       <Source>garbage\garbage1.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage1.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage1.xnb</Output>
+      <Time>2012-05-13T19:23:46.1679687+02:00</Time>
     </Item>
     <Item>
       <Source>wreckage\wreckage2.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage2.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage2.xnb</Output>
+      <Time>2012-05-13T19:23:46.1933593+02:00</Time>
     </Item>
     <Item>
       <Source>wreckage\wreckage3.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage3.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage3.xnb</Output>
+      <Time>2012-05-13T19:23:46.1933593+02:00</Time>
     </Item>
     <Item>
       <Source>wreckage\wreckage4.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage4.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\wreckage\wreckage4.xnb</Output>
+      <Time>2012-05-13T19:23:46.1943359+02:00</Time>
     </Item>
     <Item>
       <Source>garbage\garbage2.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage2.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage2.xnb</Output>
+      <Time>2012-05-13T19:23:46.1679687+02:00</Time>
     </Item>
     <Item>
       <Source>garbage\garbage3.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage3.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\garbage\garbage3.xnb</Output>
+      <Time>2012-05-13T19:23:46.1679687+02:00</Time>
     </Item>
     <Item>
       <Source>people\person1.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person1.xnb</Output>
-      <Time>2012-05-09T20:46:10+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person1.xnb</Output>
+      <Time>2012-05-13T19:23:46.1796875+02:00</Time>
     </Item>
     <Item>
       <Source>people\person2.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person2.xnb</Output>
-      <Time>2012-05-09T20:46:11+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person2.xnb</Output>
+      <Time>2012-05-13T19:23:46.180664+02:00</Time>
     </Item>
     <Item>
       <Source>people\person3.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person3.xnb</Output>
-      <Time>2012-05-09T20:46:12+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person3.xnb</Output>
+      <Time>2012-05-13T19:23:46.180664+02:00</Time>
     </Item>
     <Item>
       <Source>background\street.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\background\street.xnb</Output>
-      <Time>2012-05-09T20:55:34+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\background\street.xnb</Output>
+      <Time>2012-05-13T19:23:46.1630859+02:00</Time>
     </Item>
     <Item>
       <Source>player\body.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\body.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\body.xnb</Output>
+      <Time>2012-05-13T19:23:46.1855468+02:00</Time>
     </Item>
     <Item>
       <Source>player\Fist.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Fist.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Fist.xnb</Output>
+      <Time>2012-05-13T19:23:46.1835937+02:00</Time>
     </Item>
     <Item>
       <Source>player\Foot.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Foot.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Foot.xnb</Output>
+      <Time>2012-05-13T19:23:46.1845703+02:00</Time>
     </Item>
     <Item>
       <Source>player\Hand.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Hand.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Hand.xnb</Output>
+      <Time>2012-05-13T19:23:46.1845703+02:00</Time>
     </Item>
     <Item>
       <Source>player\head.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\head.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\head.xnb</Output>
+      <Time>2012-05-13T19:23:46.1894531+02:00</Time>
     </Item>
     <Item>
       <Source>player\UpperArm.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\UpperArm.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\UpperArm.xnb</Output>
+      <Time>2012-05-13T19:23:46.1855468+02:00</Time>
     </Item>
     <Item>
       <Source>building\building1.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building1.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building1.xnb</Output>
+      <Time>2012-05-13T19:23:46.1640625+02:00</Time>
     </Item>
     <Item>
       <Source>building\building2.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building2.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\building2.xnb</Output>
+      <Time>2012-05-13T19:23:46.1640625+02:00</Time>
     </Item>
     <Item>
       <Source>player\Leg.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Leg.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\Leg.xnb</Output>
+      <Time>2012-05-13T19:23:46.1845703+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead1.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead1.xnb</Output>
-      <Time>2012-05-09T20:46:19+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead1.xnb</Output>
+      <Time>2012-05-13T19:23:46.1757812+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead2.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead2.xnb</Output>
-      <Time>2012-05-09T20:46:19+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead2.xnb</Output>
+      <Time>2012-05-13T19:23:46.1757812+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead3.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead3.xnb</Output>
-      <Time>2012-05-09T20:46:19+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead3.xnb</Output>
+      <Time>2012-05-13T19:23:46.1757812+02:00</Time>
     </Item>
     <Item>
       <Source>people\person4.png</Source>
@@ -250,8 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person4.xnb</Output>
-      <Time>2012-05-09T20:46:12+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person4.xnb</Output>
+      <Time>2012-05-13T19:23:46.180664+02:00</Time>
     </Item>
     <Item>
       <Source>people\person5.png</Source>
@@ -259,8 +259,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person5.xnb</Output>
-      <Time>2012-05-09T20:46:12+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person5.xnb</Output>
+      <Time>2012-05-13T19:23:46.1816406+02:00</Time>
     </Item>
     <Item>
       <Source>people\person6.png</Source>
@@ -268,8 +268,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person6.xnb</Output>
-      <Time>2012-05-09T20:46:12+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person6.xnb</Output>
+      <Time>2012-05-13T19:23:46.1826171+02:00</Time>
     </Item>
     <Item>
       <Source>people\person7.png</Source>
@@ -277,8 +277,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person7.xnb</Output>
-      <Time>2012-05-09T20:46:12+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person7.xnb</Output>
+      <Time>2012-05-13T19:23:46.1826171+02:00</Time>
     </Item>
     <Item>
       <Source>people\person8.png</Source>
@@ -286,8 +286,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person8.xnb</Output>
-      <Time>2012-05-09T20:46:12+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\person8.xnb</Output>
+      <Time>2012-05-13T19:23:46.1835937+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead4.png</Source>
@@ -295,8 +295,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead4.xnb</Output>
-      <Time>2012-05-09T20:46:19+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead4.xnb</Output>
+      <Time>2012-05-13T19:23:46.1787109+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead5.png</Source>
@@ -304,8 +304,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead5.xnb</Output>
-      <Time>2012-05-09T20:46:19+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead5.xnb</Output>
+      <Time>2012-05-13T19:23:46.1787109+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead6.png</Source>
@@ -313,8 +313,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead6.xnb</Output>
-      <Time>2012-05-09T20:46:19+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead6.xnb</Output>
+      <Time>2012-05-13T19:23:46.1787109+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead7.png</Source>
@@ -322,8 +322,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead7.xnb</Output>
-      <Time>2012-05-09T20:46:19+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead7.xnb</Output>
+      <Time>2012-05-13T19:23:46.1796875+02:00</Time>
     </Item>
     <Item>
       <Source>people\dead\persondead8.png</Source>
@@ -331,17 +331,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead8.xnb</Output>
-      <Time>2012-05-09T20:46:19+02:00</Time>
-    </Item>
-    <Item>
-      <Source>shader.fx</Source>
-      <Name>shader</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\shader.xnb</Output>
-      <Time>2012-05-07T17:56:15+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\people\dead\persondead8.xnb</Output>
+      <Time>2012-05-13T19:23:46.1796875+02:00</Time>
     </Item>
     <Item>
       <Source>player\wolfdoof.png</Source>
@@ -349,8 +340,179 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\wolfdoof.xnb</Output>
-      <Time>2012-05-10T14:32:16.4369178+02:00</Time>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\player\wolfdoof.xnb</Output>
+      <Time>2012-05-13T19:23:46.1904296+02:00</Time>
+    </Item>
+    <Item>
+      <Source>shader.fx</Source>
+      <Name>shader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\shader.xnb</Output>
+      <Time>2012-05-13T19:23:46.1904296+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\backparts\backpart1.png</Source>
+      <Name>building\backparts\backpart1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\backparts\backpart1.xnb</Output>
+      <Time>2012-05-13T19:29:29.2851562+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\backparts\backpart2.png</Source>
+      <Name>building\backparts\backpart2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\backparts\backpart2.xnb</Output>
+      <Time>2012-05-13T19:29:29.2890625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\backparts\backpart3.png</Source>
+      <Name>building\backparts\backpart3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\backparts\backpart3.xnb</Output>
+      <Time>2012-05-13T19:29:29.2929687+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\backparts\backpart4.png</Source>
+      <Name>building\backparts\backpart4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\backparts\backpart4.xnb</Output>
+      <Time>2012-05-13T19:29:29.2958984+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\frontparts\part1.png</Source>
+      <Name>building\frontparts\part1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\frontparts\part1.xnb</Output>
+      <Time>2012-05-13T19:29:39.7617187+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\frontparts\part2.png</Source>
+      <Name>building\frontparts\part2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\frontparts\part2.xnb</Output>
+      <Time>2012-05-13T19:29:39.7646484+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\frontparts\part3.png</Source>
+      <Name>building\frontparts\part3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\frontparts\part3.xnb</Output>
+      <Time>2012-05-13T19:29:39.7675781+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\frontparts\part4.png</Source>
+      <Name>building\frontparts\part4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\frontparts\part4.xnb</Output>
+      <Time>2012-05-13T19:29:39.7705078+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\frontparts\part5.png</Source>
+      <Name>building\frontparts\part5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\frontparts\part5.xnb</Output>
+      <Time>2012-05-13T19:29:39.7734375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\frontparts\part6.png</Source>
+      <Name>building\frontparts\part6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\frontparts\part6.xnb</Output>
+      <Time>2012-05-13T19:29:39.7753906+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\frontparts\part7.png</Source>
+      <Name>building\frontparts\part7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\frontparts\part7.xnb</Output>
+      <Time>2012-05-13T19:29:39.7773437+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\frontparts\part8.png</Source>
+      <Name>building\frontparts\part8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\frontparts\part8.xnb</Output>
+      <Time>2012-05-13T19:29:39.7792968+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\midparts\bpart1.png</Source>
+      <Name>building\midparts\bpart1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\midparts\bpart1.xnb</Output>
+      <Time>2012-05-13T19:29:55.7617187+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\midparts\bpart2.png</Source>
+      <Name>building\midparts\bpart2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\midparts\bpart2.xnb</Output>
+      <Time>2012-05-13T19:29:55.7646484+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\midparts\bpart3.png</Source>
+      <Name>building\midparts\bpart3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\midparts\bpart3.xnb</Output>
+      <Time>2012-05-13T19:29:55.7675781+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\midparts\bpart4.png</Source>
+      <Name>building\midparts\bpart4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\midparts\bpart4.xnb</Output>
+      <Time>2012-05-13T19:29:55.7705078+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\midparts\bpart5.png</Source>
+      <Name>building\midparts\bpart5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\midparts\bpart5.xnb</Output>
+      <Time>2012-05-13T19:29:55.7724609+02:00</Time>
+    </Item>
+    <Item>
+      <Source>building\midparts\bpart6.png</Source>
+      <Name>building\midparts\bpart6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\building\midparts\bpart6.xnb</Output>
+      <Time>2012-05-13T19:29:55.7753906+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -358,39 +520,39 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\git\CityTest\CityTest\CityTestContent\</RootDirectory>
-      <LoggerRootDirectory>C:\git\CityTest\CityTest\CityTest\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\git\CityTest\CityTest\CityTestContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\git\CityTest\CityTest\CityTest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\gitRep\CityTest\CityTest\CityTestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\gitRep\CityTest\CityTest\CityTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\gitRep\CityTest\CityTest\CityTestContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\gitRep\CityTest\CityTest\CityTest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T12:41:18+02:00</Value>
+        <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-10-12T16:36:49.1987564+02:00</Value>
+        <Value>2010-11-08T13:48:48.1298828+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

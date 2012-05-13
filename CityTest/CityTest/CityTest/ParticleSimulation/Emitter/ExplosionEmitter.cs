@@ -15,7 +15,7 @@ namespace Kinampage.ParticleSimulation
         private float perFrameCount = 0;
         private AnimatedTexture texture;
         private ParticleSystem ps;
-        private int xDirection;
+        private float xDirection;
 
         //Particle infos
         private int particleLifeTime = 60;
@@ -23,7 +23,7 @@ namespace Kinampage.ParticleSimulation
 
         private Random rand = new Random();
 
-        public ExplosionEmitter(Vector2 position, int area, int lifeTime, float perFrame, int xdirection, AnimatedTexture texture ,ParticleSystem ps)
+        public ExplosionEmitter(Vector2 position, int area, int lifeTime, float perFrame, float xdirection, AnimatedTexture texture ,ParticleSystem ps)
         {
             this.position = position;
             this.area = area;
@@ -37,7 +37,7 @@ namespace Kinampage.ParticleSimulation
             init();
         }
 
-        public ExplosionEmitter(Vector2 position, int area, int lifeTime, float perFrame, int xdirection, AnimatedTexture texture, ParticleSystem ps, int particleLifetime, Vector2 particleDirection)
+        public ExplosionEmitter(Vector2 position, int area, int lifeTime, float perFrame, float xdirection, AnimatedTexture texture, ParticleSystem ps, int particleLifetime, Vector2 particleDirection)
         {
             this.position = position;
             this.area = area;
@@ -68,7 +68,7 @@ namespace Kinampage.ParticleSimulation
             {
                 pos.X += rand.Next(-this.area, this.area);
                 pos.Y += rand.Next(-this.area, this.area);
-
+                /*
                 if (this.xDirection > 0)//Explode to right
                 {
                     dir.X = rand.Next(0, this.area* 5);
@@ -83,8 +83,10 @@ namespace Kinampage.ParticleSimulation
                 {
                     dir.X = rand.Next(-this.area * 2, this.area * 2);
                     dir.Y = rand.Next(-this.area * 3, -this.area);
-                }
-                
+                }*/
+
+                dir.X = xDirection * -0.2f;
+                dir.Y = rand.Next(-this.area * 3, this.area);
                 ps.particleList.Add(new SmokeLineParticle(pos, dir, particleLifeTime, 0.6f, GraphicsUtil.getWreckage(), ps));
                // ps.particleList.Add(new SmokeLineParticle(pos, dir, particleLifeTime, 0.6f, GraphicsUtil.getGarbage(), ps));
             }

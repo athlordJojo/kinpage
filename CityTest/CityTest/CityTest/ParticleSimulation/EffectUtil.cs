@@ -17,7 +17,7 @@ namespace Kinampage.ParticleSimulation
             ps.emitterList.Add(new ExplosionEmitter(new Vector2(300, 200), 1, 20, 1, 0, GraphicsUtil.explosion, ps));
         }
 
-        public static void createExplosionWithSmoke(ParticleSystem ps, Vector2 position, int direction)
+        public static void createExplosionWithSmoke(ParticleSystem ps, Vector2 position, float direction)
         {
             ps.emitterList.Add(new ExplosionEmitter(position, 8, 7, 0.7f, direction, GraphicsUtil.smoke, ps, 600, new Vector2(-1f, -0.1f)));
         }

@@ -20,7 +20,8 @@ namespace Kinampage.GameSimulation
             //left Building
             for (int i = 0; i < height; i++)
             {
-                this.floorList.Add(new Floor(new Vector2(this.position.X, this.position.Y - (i * 80)), GraphicsUtil.getBuilding()));
+                this.floorList.Add(new Floor(new Vector2(this.position.X, this.position.Y - (i * 80)), GraphicsUtil.getBuildingFront(0), false));
+                this.floorList.Add(new Floor(new Vector2(this.position.X+ 80, this.position.Y - (i * 80)), GraphicsUtil.getBuildingFront(0), true));
             }
         }
 
@@ -32,15 +33,30 @@ namespace Kinampage.GameSimulation
             }
         }
 
-        public bool ishit(Vector2 v, float xRange, float yRange)
+
+        public void update()
         {
-            bool hit = false;
+            for (int i = 0; i < this.floorList.Count; i++)
+            {
+                /*if (this.floorList[i].getHealth() <= 0)
+                {
+                    this.floorList.RemoveAt(i);
+                    i--;
+                }*/
+            }
+        }
+
+        public Floor ishit(Vector2 v, float xRange, float yRange)
+        {
             foreach (Floor f in this.floorList)
             {
-                hit = hit || f.ishit(v, xRange, yRange);
+                if (f.ishit(v, xRange, yRange))
+                {
+                    return f;
+                }
             }
 
-            return hit;
+            return null;
         }
 
       
