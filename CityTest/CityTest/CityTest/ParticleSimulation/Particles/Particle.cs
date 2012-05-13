@@ -40,10 +40,6 @@ namespace Kinampage.ParticleSimulation
         }
 
 
-
-
-
-
         public virtual void update(Vector2 gravity)
         {
             this.texture.Rotation += this.rotate;
@@ -63,7 +59,17 @@ namespace Kinampage.ParticleSimulation
             pos.Y -= (this.texture.myTexture.Height * this.scale) / 2;
            // Console.WriteLine(this.position +" " + this.scale);
 
-            this.texture.DrawFrame(sp, pos, false);
+           //this.texture.DrawFrame(sp, pos, false);
+            //draw sprite with alpha
+            if (this.lifetime < 155)
+            {
+                byte a = (byte)this.lifetime;
+                this.texture.DrawFrameAlpha(sp, pos, false, a);
+            }
+            else
+            {
+                this.texture.DrawFrame(sp, pos, false);
+            }     
         }
 
         //*************************** GETTER SETTER ***************************

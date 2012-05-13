@@ -30,15 +30,13 @@ namespace Kinampage.ParticleSimulation
             pos.X -= (this.texture.myTexture.Width * this.scale) / 2;
             pos.Y -= (this.texture.myTexture.Height * this.scale) / 2;
 
-            //
+            //draw sprite with alpha
             byte a = 155;
-            
             if (this.lifetime < 155)
             {
                 a = (byte)this.lifetime;
             }
-
-            //draw sprite with alpha
+            
             this.texture.DrawFrameAlpha(sp, pos, false, a);
         }
     }

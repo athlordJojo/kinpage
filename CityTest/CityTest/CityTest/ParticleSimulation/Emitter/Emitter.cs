@@ -11,7 +11,7 @@ namespace Kinampage.ParticleSimulation
         public Vector2 position;
         protected int lifeTime = 1;
         protected AnimatedTexture texture;
-        protected ParticleSystem ps;
+        protected ParticleSystem particleSystem;
 
 
         public Emitter(Vector2 position, int lifetime, AnimatedTexture texture, ParticleSystem particleSystem)
@@ -19,7 +19,7 @@ namespace Kinampage.ParticleSimulation
             this.position = position;
             this.lifeTime = lifetime;
             this.texture = texture;
-            this.ps = particleSystem;
+            this.particleSystem = particleSystem;
         }
 
         public virtual void update()
@@ -34,5 +34,4 @@ namespace Kinampage.ParticleSimulation
         }
 
     }
-
 }

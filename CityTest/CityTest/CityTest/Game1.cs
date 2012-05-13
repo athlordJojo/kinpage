@@ -38,8 +38,6 @@ namespace Kinampage
         //Hand myHand;
 
         // dotDetection
-        private String detectionColor = AbstractDotDetector.detectRedDot;
-        AbstractDotDetector dotDetector = null;
         Vector2[] handPositions = new Vector2[2];
         HandDotDetector handDotDetector = null;
         Rectangle redDotDetectionArea = new Rectangle(0, 0, 180, 180);
@@ -216,7 +214,8 @@ namespace Kinampage
                 if (keyState.IsKeyDown(Keys.S))
                 {
                     //EffectUtil.createShockwave(particleSimulator.psNoGrav, new Vector2(300, 400));
-                    kinectDrawer.changePosH(-10f);
+                    //kinectDrawer.changePosH(-10f);
+                    EffectUtil.createFire(new Vector2(500, 400), 600, 0);
                     count = 70;
                 }
             }

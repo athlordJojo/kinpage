@@ -123,13 +123,15 @@
     <Compile Include="GameSimulation\Player.cs" />
     <Compile Include="GraphicsUtil.cs" />
     <Compile Include="KinectDraw.cs" />
-    <Compile Include="ParticleSimulation\EffectUtil.cs" />
+    <Compile Include="EffectUtil.cs" />
     <Compile Include="ParticleSimulation\Emitter\Emitter.cs" />
     <Compile Include="ParticleSimulation\Emitter\ExplosionEmitter.cs" />
+    <Compile Include="ParticleSimulation\Emitter\FireEmitter.cs" />
     <Compile Include="ParticleSimulation\Emitter\ShockwaveEmitter.cs" />
     <Compile Include="ParticleSimulation\Emitter\SmokeEmitter.cs" />
     <Compile Include="ParticleSimulation\Particles\ExplosionParticle.cs" />
     <Compile Include="ParticleSimulation\Emitter\IEmitterable.cs" />
+    <Compile Include="ParticleSimulation\Particles\FireSmokeParticle.cs" />
     <Compile Include="ParticleSimulation\Particles\IParticlable.cs" />
     <Compile Include="ParticleSimulation\Particles\Particle.cs" />
     <Compile Include="ParticleSimulation\ParticleSimulator.cs" />

@@ -12,7 +12,7 @@ namespace Kinampage
     {
         static Random rand = new Random();
 
-        public static AnimatedTexture explosion;
+        public static AnimatedTexture fire;
         public static AnimatedTexture smoke;
         public static AnimatedTexture explosion1;
         public static AnimatedTexture dust;
@@ -33,7 +33,7 @@ namespace Kinampage
         public static void init()
         {
             //Textures PArticles
-            GraphicsUtil.explosion = new AnimatedTexture(Vector2.Zero, 0, 1f, 0.1f);
+            GraphicsUtil.fire = new AnimatedTexture(Vector2.Zero, 0, 1f, 0.1f);
             GraphicsUtil.smoke = new AnimatedTexture(Vector2.Zero, 0, 1f, 0.4f);
             
             GraphicsUtil.explosion1 = new AnimatedTexture(Vector2.Zero, 0, 1f, 0.1f);
@@ -78,7 +78,7 @@ namespace Kinampage
 
         public static void load(ContentManager Content)
         {
-            GraphicsUtil.explosion.Load(Content, "fire", 1, 1);
+            GraphicsUtil.fire.Load(Content, "fire", 1, 1);
             GraphicsUtil.smoke.Load(Content, "smoke", 1, 1);
             GraphicsUtil.explosion1.Load(Content, "explosion1", 1, 1);
             GraphicsUtil.dust.Load(Content, "dust", 1, 1);
@@ -199,6 +199,12 @@ namespace Kinampage
         public static AnimatedTexture getBuildingMid()
         {
             return (AnimatedTexture)buildingsmid[rand.Next(0, buildingsmid.Count)].Clone();
+        }
+
+
+        public static AnimatedTexture getSmoke()
+        {
+            return (AnimatedTexture)smoke.Clone();
         }
     }
 }

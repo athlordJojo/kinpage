@@ -70,6 +70,16 @@ namespace Kinampage.GameSimulation
             {
                 removePart();
                 this.healthDiff = 0;
+
+                if (rand.Next(7) == 1)
+                {
+                    Vector2 posTmp = this.position;
+                    posTmp.X += rand.Next(10, 70);
+                    posTmp.Y += rand.Next(10, 70);
+                    int x = -1;
+                    if(isMirrored) x *=-1;
+                    EffectUtil.createFire(posTmp, 300 + rand.Next(400), x);
+                }
                 
             }
 

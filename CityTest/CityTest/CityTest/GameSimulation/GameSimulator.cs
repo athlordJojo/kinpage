@@ -31,8 +31,8 @@ namespace Kinampage.GameSimulation
 
         private void createBuildings()
         {
-            buildingList.Add(new Building(new Vector2(150, 520), 6));
-            buildingList.Add(new Building(new Vector2(1000, 520), 5));
+            buildingList.Add(new Building(new Vector2(250, 520), 6));
+            buildingList.Add(new Building(new Vector2(900, 520), 5));
         }
 
         public void populate()
@@ -159,8 +159,9 @@ namespace Kinampage.GameSimulation
                     Floor f = buildingList[i].ishit(h.pos, 30, 200);
                     if (f != null)
                     {
-                        f.damage(10 + rand.Next(6));
+                        f.damage(10 + rand.Next(5));
                         EffectUtil.createExplosionWithSmoke(Game1.particleSimulator.psGrav, h.pos, h.moveVector.X);
+                        EffectUtil.createExplosion(Game1.particleSimulator.psGrav, h.pos, new Vector2(0, -4), new Vector2(6, 2), 2);
                     }
                 }
             }

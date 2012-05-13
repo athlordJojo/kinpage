@@ -11,6 +11,7 @@ namespace Kinampage.ParticleSimulation
     {
         public ParticleSystem psGrav = new ParticleSystem(new Vector2(0, 0.2f));
         public ParticleSystem psNoGrav = new ParticleSystem(new Vector2(0, 0f));
+        public ParticleSystem psNegGrav = new ParticleSystem(new Vector2(0, -0.1f));
 
         public List<ParticleSystem> particleSystemList = new List<ParticleSystem>();
 
@@ -18,7 +19,7 @@ namespace Kinampage.ParticleSimulation
         {
             this.particleSystemList.Add(psNoGrav);
             this.particleSystemList.Add(psGrav);
-           
+            this.particleSystemList.Add(psNegGrav);           
         }
 
         public void update()

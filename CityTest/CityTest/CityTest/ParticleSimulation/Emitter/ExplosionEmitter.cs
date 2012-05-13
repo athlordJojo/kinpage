@@ -61,7 +61,7 @@ namespace Kinampage.ParticleSimulation
         {
             Vector2 dir = Vector2.Zero;
             Vector2 pos = new Vector2(this.position.X, this.position.Y);
-            int c = rand.Next(2, 6);
+            int c = rand.Next(2, 3);
 
             //Add wrecks with smokeline
             for (int i = 0; i < c; i++)

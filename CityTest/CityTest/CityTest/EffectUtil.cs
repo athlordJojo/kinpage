@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Kinampage.ParticleSimulation;
 
-
-namespace Kinampage.ParticleSimulation
+namespace Kinampage
 {
     public class EffectUtil
     {
@@ -14,7 +14,7 @@ namespace Kinampage.ParticleSimulation
 
         public static void createExplosion(ParticleSystem ps)
         {
-            ps.emitterList.Add(new ExplosionEmitter(new Vector2(300, 200), 1, 20, 1, 0, GraphicsUtil.explosion, ps));
+            ps.emitterList.Add(new ExplosionEmitter(new Vector2(300, 200), 1, 20, 1, 0, GraphicsUtil.fire, ps));
         }
 
         public static void createExplosionWithSmoke(ParticleSystem ps, Vector2 position, float direction)
@@ -25,6 +25,11 @@ namespace Kinampage.ParticleSimulation
         public static void createShockwave(ParticleSystem ps, Vector2 position)
         {
             ps.emitterList.Add(new ShockwaveEmitter(position, 60, GraphicsUtil.smoke, ps));
+        }
+
+        public static void createFire(Vector2 position, int lifetime, float xDirection)
+        {
+            Game1.particleSimulator.psNoGrav.emitterList.Add(new FireEmitter(position, lifetime, GraphicsUtil.fire, Game1.particleSimulator.psNegGrav, xDirection));
         }
 
         public static void createDeadPerson(ParticleSystem ps, Vector2 pos, Vector2 dir, int i, float scale)
