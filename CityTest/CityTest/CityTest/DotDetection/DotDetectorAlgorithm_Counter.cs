@@ -19,6 +19,11 @@ namespace KinectProject
         
         }
 
+        public override void addAllColors(List<Color> list)
+        {
+            colorList = list;
+        }
+
         public override void addColor(Color c)
         {
             colorList.Add(c);
@@ -43,28 +48,29 @@ namespace KinectProject
             //double dynamicThreshold = colorList.Count * 0.02;
             int pixelCounter = 0;
 
-            KeyboardState k = Keyboard.GetState();
-            if (k.IsKeyDown(Keys.A))
-            {
-                if (colorDiffrenceThreshold > 0) colorDiffrenceThreshold--;
-                Console.WriteLine(colorDiffrenceThreshold);
-            }
-            else if (k.IsKeyDown(Keys.S))
-            {
-                colorDiffrenceThreshold++;
-                Console.WriteLine(colorDiffrenceThreshold);
-            }
-
+            //KeyboardState k = Keyboard.GetState();
+            //if (k.IsKeyDown(Keys.A))
+            //{
+            //    if (colorDiffrenceThreshold > 0) colorDiffrenceThreshold--;
+            //    Console.WriteLine(colorDiffrenceThreshold);
+            //}
+            //else if (k.IsKeyDown(Keys.S))
+            //{
+            //    colorDiffrenceThreshold++;
+            //    Console.WriteLine(colorDiffrenceThreshold);
+            //}
+            double delta_1, delta_2;
+            Boolean isWhite = false;
             foreach (Color c in colorList)
             {
-                Boolean isWhite = c.R > 240 && c.G > 240 && c.B > 240;
+                isWhite = c.R > 240 && c.G > 240 && c.B > 240;
                 if (isWhite)
                 {
                     continue;
                 }
 
-                double delta_1 = -1;
-                double delta_2 = -1;
+                delta_1 = -1;
+                delta_2 = -1;
 
                 if (base.redMode)
                 {

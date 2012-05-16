@@ -55,7 +55,7 @@ namespace KinectProject
 
 
         public abstract void addColor(Color c);
-
+        public abstract void addAllColors(List<Color> list);
         public abstract Boolean isDot();
         public abstract void reset();
     }

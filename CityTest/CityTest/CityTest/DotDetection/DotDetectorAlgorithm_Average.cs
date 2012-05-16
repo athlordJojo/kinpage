@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace KinectProject
 {
@@ -16,7 +17,11 @@ namespace KinectProject
         {
 
         }
-        
+
+        public override void addAllColors(List<Color> list)
+        {
+        }
+
         public override void addColor(Microsoft.Xna.Framework.Color c)
         {
             r += c.R;

@@ -12,6 +12,7 @@ namespace KinectProject
         public Vector2 usedHandPosition { get; set; }
         public Boolean dotDetected { get; set; }
         public List<Color> usedColorObjects { get; set;}
+        public int usedSize { get; set; }
         public Boolean redMode { get; set; }
         public Boolean greenMode { get; set; }
         public Boolean blueMode { get; set; }

@@ -5,19 +5,17 @@ using System.Text;
 using Microsoft.Kinect;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
+using System.Threading;
 
 namespace KinectProject
 {
     class HandDotDetector
     {
         DotDetector_ResultObject[] results { get; set; }
-        Vector2[] handPositions = null;
         List<Color> colorList = null;
         Rectangle redDotDetectionArea = new Rectangle(0, 0, 0, 0);
-        AbstractDotDetector dotDetector = null;
-        private String detectionColor = AbstractDotDetector.detectGreenDot;
-        int neededPixels = -1;
 
+        int neededPixels = -1;// 0= rectangle mode, 1= depthmode
 
         // thresholddetection
         int detectedDotsInRow = 0;
@@ -25,36 +23,32 @@ namespace KinectProject
         public Boolean ready { get; set; }
         public Boolean startThresholdSearch {get; set;}
 
-
-        // varibalen für aussreiser (bolter) behandlung 
-        int leftHandbolterCounter = 0;
-        int rightHandbolterCounter = 0;
-        int bolterThreshold = 25;
-        Dictionary<int, int> hand_bolterValue = new Dictionary<int, int>();
         KinectSensor kinectSensor = null;
 
-        public HandDotDetector(Rectangle redDotDetectionArea, KinectSensor k)
+        Handetector_Threading detector_1 = null;
+        Handetector_Threading detector_2 = null;
+        int mode = -1;
+        public Boolean isDebugMode {get; set;}
+        public HandDotDetector(KinectSensor k, Boolean _isDebug)
         {
             this.kinectSensor = k;
-            this.redDotDetectionArea = redDotDetectionArea;
             results = new DotDetector_ResultObject[2];
             results[0] = new DotDetector_ResultObject();
             results[1] = new DotDetector_ResultObject();
-            handPositions = new Vector2[2];
             colorList = new List<Color>();
-            dotDetector = new DotDetectorAlgorithm_Counter(detectionColor);
             neededPixels = redDotDetectionArea.Width * redDotDetectionArea.Height;
             this.ready = false;
-
-            hand_bolterValue.Add(0, 0);
-            hand_bolterValue.Add(1, 0);
-           
-
+            mode = 0;
+            isDebugMode = _isDebug;
+            detector_1 = new Handetector_Threading(kinectSensor, mode, isDebugMode);
+            detector_2 = new Handetector_Threading(kinectSensor, mode, isDebugMode);
         }
 
         public DotDetector_ResultObject[] dotDetected(Vector2[] handPositions, AllFramesReadyEventArgs e)
         {
-            this.handPositions = handPositions;
+            DateTime start = DateTime.Now;
+
+            //this.handPositions = handPositions;
             using (ColorImageFrame colorImageFrame = e.OpenColorImageFrame())
             {
                 byte[] pixelsFromFrame = null;
@@ -68,130 +62,43 @@ namespace KinectProject
                 {
                     if (depthImageFrame == null) return null;
 
-                    short[] depthPixelsFromFrame = new short[depthImageFrame.PixelDataLength];
-                    depthImageFrame.CopyPixelDataTo(depthPixelsFromFrame);
+                    short[] depthPixelsFromFrame;
+                    if (mode == 1)
+                    {// modeus wo auch die teifeninformationen ausgewertet werden
 
-                    algoChangeCheck();//anderen algo verwenden ?
-
-                    for (int i = 0; i < handPositions.Length; i++)
-                    {
-                        colorList.Clear();
-                        Vector2 handPosition = handPositions[i];
-                        if (handPosition != null)
-                        {
-                            ColorImagePoint cip = this.kinectSensor.MapDepthToColorImagePoint(DepthImageFormat.Resolution640x480Fps30, (int)handPosition.X, (int)handPosition.Y, 0, ColorImageFormat.RgbResolution640x480Fps30);
-                            int startXPosition = (int)cip.X - (redDotDetectionArea.Width / 2);
-                            int startYPosition = (int)cip.Y - (redDotDetectionArea.Height / 2);
-                            Color c = new Color();
-                            this.dotDetector.reset();
-
-                            for (int y = startYPosition; y < startYPosition + redDotDetectionArea.Height; y++)
-                            {
-                                Boolean inYBoundaries = y >= 0 && y < colorImageFrame.Height;//gucken ob y wert in den grenzen liegt
-                                for (int x = startXPosition; x < startXPosition + redDotDetectionArea.Width; x++)
-                                {
-                                    int y_X_kinectWidth = y * colorImageFrame.Width;
-                                    Boolean inXBoundaries = x >= 0 && x < colorImageFrame.Width;
-                                    if (inXBoundaries && inYBoundaries)
-                                    {
-                                        //ColorImagePoint cip = depthImageFrame.MapToColorImagePoint(x, y, ColorImageFormat.RgbResolution640x480Fps30);
-                                        //cip = this.kinectSensor.MapDepthToColorImagePoint(DepthImageFormat.Resolution640x480Fps30, x, y, 0, ColorImageFormat.RgbResolution640x480Fps30);
-                                        //int tx = cip.X;
-                                        //int ty = cip.Y;
-                                        //int y_X_kinectWidth = ty * colorImageFrame.Width;
-                                        //Console.WriteLine(x + "," + y);
-                                        int positionInArray = y_X_kinectWidth + x;
-                                        if (positionInArray < depthPixelsFromFrame.Length)
-                                        {
-                                            short depthInfoForColorPixel = depthPixelsFromFrame[positionInArray];
-                                            int playerIndex = depthInfoForColorPixel & 7;// bitweise verundung (letzten drei bits sind id. also kann hiermit gesagt wenrden ob der pixel zum spieler gehort)
-                                            //Pixel gehoert zu spieler
-                                            if (playerIndex != 0)
-                                            {
-                                                //c = rgbColorObjects[positionInArray];
-                                                int pos = positionInArray * 4;
-                                                c = new Color(pixelsFromFrame[pos + 2], pixelsFromFrame[pos + 1], pixelsFromFrame[pos]);
-                                                this.dotDetector.addColor(c);
-                                            }
-                                            else
-                                            {
-                                                c = new Color(0, 0, 0);
-                                            }
-                                            colorList.Add(c);
-                                        }
-                                    }
-                                }
-                            }
-
-                            //In dem ergebnis-Objekt die verwendeten Daten setzten 
-                            DotDetector_ResultObject r = results[i];
-                            r.usedHandPosition = handPosition;
-                            Boolean dotDetected = dotDetector.isDot();
-
-                            //int bolterCounter = i == 0 ? rightHandbolterCounter: leftHandbolterCounter;
-                            //int bolterCounter = -1;
-                            //hand_bolterValue.TryGetValue(i, out bolterCounter);
-
-                            if (dotDetected)
-                            {
-                                if (i == 0 && rightHandbolterCounter < bolterThreshold)
-                                {
-                                    rightHandbolterCounter++;
-                                }
-                                else if (i == 1 && leftHandbolterCounter < bolterThreshold)
-                                {
-                                    leftHandbolterCounter++;
-                                }
-                            }
-                            else
-                            {
-                                if (i == 0 && rightHandbolterCounter > 0)
-                                {
-                                    rightHandbolterCounter--;
-                                }
-                                else if (i == 1 && leftHandbolterCounter > 0)
-                                {
-                                    leftHandbolterCounter--;
-                                }
-                            }
-                           // hand_bolterValue.Remove(i);
-                            //hand_bolterValue.Add(i, bolterCounter);
-
-
-                            //if (i == 0)
-                            //{
-                            //    Console.WriteLine(rightHandbolterCounter);
-                            //}
-                            //else if (i == 1)
-                            //{
-                            //    Console.WriteLine(leftHandbolterCounter);
-                            //}
-
-                            if (i == 0)
-                            {
-                                r.dotDetected = dotDetected || rightHandbolterCounter > 0;
-                            }
-                            else
-                            {
-                                r.dotDetected = dotDetected || leftHandbolterCounter > 0;
-                            }
-                            
-                            r.redMode = dotDetector.redMode;
-                            r.greenMode = dotDetector.greenMode;
-                            r.blueMode = dotDetector.blueMode;
-                            if (neededPixels == colorList.Count)
-                            {
-                                r.usedColorObjects = colorList.ToList();
-                            }
-                            else
-                            {
-                                r.usedColorObjects = null;// wenn teile  des um die hand gezecihenten rechtecks ausserhalb der grenzen liegen, sind weniger pixel in der liste
-                            }
-
-                        }
+                        depthPixelsFromFrame = new short[depthImageFrame.PixelDataLength];
+                        depthImageFrame.CopyPixelDataTo(depthPixelsFromFrame);
+                        detector_1.depthPixelsFromFrame = depthPixelsFromFrame;
+                        detector_2.depthPixelsFromFrame = depthPixelsFromFrame;
+                        detector_1.depthImageFrame = depthImageFrame;
+                        detector_2.depthImageFrame = depthImageFrame;
                     }
+
+                    Vector2 rightHand = handPositions[0];
+                    ManualResetEvent[] doneEvents = new ManualResetEvent[2];
+                    detector_1.colorImageFrame = colorImageFrame;
+                    detector_1.depthImageFrame = depthImageFrame;
+                    detector_1.pixelsFromFrame = pixelsFromFrame;
+                    detector_1._doneEvent = new ManualResetEvent(false);
+                    doneEvents[0] = detector_1._doneEvent;
+                    ThreadPool.QueueUserWorkItem(detector_1.findDot, rightHand);
+
+                    Vector2 leftHand = handPositions[1];
+                    detector_2.colorImageFrame = colorImageFrame;
+                    detector_2.pixelsFromFrame = pixelsFromFrame;
+                    detector_2._doneEvent = new ManualResetEvent(false);
+                    doneEvents[1] = detector_2._doneEvent;
+
+                    ThreadPool.QueueUserWorkItem(detector_2.findDot, leftHand);
+                    WaitHandle.WaitAll(doneEvents);
+
+                    results[0] = detector_1.r;
+                    results[1] = detector_2.r;
                 }
             }
+
+            //DateTime end = DateTime.Now;
+            //Console.WriteLine(end - start);
 
             return results;
         }
@@ -199,7 +106,6 @@ namespace KinectProject
 
         public DotDetector_ResultObject[] findThreshold(Vector2[] handPositions, AllFramesReadyEventArgs e)
         {
-
             if (!startThresholdSearch && !Keyboard.GetState().IsKeyDown(Keys.Space))// wurde noch nicht gesucht und es wurde NICHT space gedrückt
             {
                 return null;
@@ -214,62 +120,33 @@ namespace KinectProject
 
             if (!r[0].dotDetected)// ist in rechter hand etwas entdeckt worden ? nein
             {
-                if (dotDetector.colorDiffrenceThreshold > 0)
+                if (detector_1.dotDetector.colorDiffrenceThreshold > 0)
                 {
-                    dotDetector.colorDiffrenceThreshold -= 0.2;
-                    //Console.WriteLine("New Threshold: " + dotDetector.colorDiffrenceThreshold);
+                    detector_1.dotDetector.colorDiffrenceThreshold -= 0.2;
                 }
                 else
                 {
-                    dotDetector.colorDiffrenceThreshold = 120;
+                    detector_1.dotDetector.colorDiffrenceThreshold = 120;
                 }
 
                 detectedDotsInRow = 0;
             }
-            else // ist in rechter hand etas entdeckt worden ? Ja
+            else // ist in rechter hand etwas entdeckt worden ? Ja
             {
                 this.detectedDotsInRow++;
-                
             }
 
             ready = detectedDotsInRow > detectedDotsInRow_Threshold;
-            if (ready) Console.WriteLine("Threshold found: " + dotDetector.colorDiffrenceThreshold);
+            if (ready)
+            {
+                Console.WriteLine("Threshold found: " + detector_1.dotDetector.colorDiffrenceThreshold);
+                detector_2.dotDetector.colorDiffrenceThreshold = detector_1.dotDetector.colorDiffrenceThreshold;
+            }
             return r;
         }
-
-        private void algoChangeCheck()
-        {
-            KeyboardState k = Keyboard.GetState();
-            if (k.IsKeyDown(Keys.Q))
-            {
-                double oldThreshold = this.dotDetector.colorDiffrenceThreshold;
-                this.dotDetector = new DotDetectorAlgorithm_Counter(detectionColor);
-                this.dotDetector.colorDiffrenceThreshold = oldThreshold;
-                Console.WriteLine("Dotdetectroalgorithm: Counter");
-
-            }
-            else if (k.IsKeyDown(Keys.W))
-            {
-                this.dotDetector = new DotDetectorAlgorithm_Average(detectionColor);
-                Console.WriteLine("Dotdetectroalgorithm: Average");
-            }
-            else if (k.IsKeyDown(Keys.Y))
-            {
-                detectionColor = AbstractDotDetector.detectRedDot;
-                this.dotDetector.changeDetectionColor(detectionColor);
-            }
-            else if (k.IsKeyDown(Keys.X))
-            {
-                detectionColor = AbstractDotDetector.detectGreenDot;
-                this.dotDetector.changeDetectionColor(detectionColor);
-            }
-            else if (k.IsKeyDown(Keys.C))
-            {
-                detectionColor = AbstractDotDetector.detectBlueDot;
-                this.dotDetector.changeDetectionColor(detectionColor);
-            }
-
-        }
-
     }
 }
+
+
+
+

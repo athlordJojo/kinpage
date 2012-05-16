@@ -105,7 +105,7 @@ namespace Kinampage
                 kinect.AllFramesReady += new EventHandler<AllFramesReadyEventArgs>(allFramesReadyEventhandler);
                 kinect.Start();
 
-                handDotDetector = new HandDotDetector(redDotDetectionArea, kinect);
+                handDotDetector = new HandDotDetector(kinect, false);
                 /*
                 //BUNNI
                 kinect = KinectSensor.KinectSensors[0];
