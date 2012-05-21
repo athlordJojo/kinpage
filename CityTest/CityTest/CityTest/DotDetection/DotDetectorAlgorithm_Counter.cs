@@ -10,7 +10,7 @@ namespace KinectProject
     {
         Boolean debug = false;
         List<Color> colorList = new List<Color>();
-        private int pixelCounterThreshold = 60;//alt = 70;
+        private int pixelCounterThreshold = 40;//alt = 70;
         
         //variabeln für helligkeitsbestimmung
         Double r = 0, g = 0, b = 0, y=0;

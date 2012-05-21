@@ -114,7 +114,9 @@
     <Compile Include="DotDetection\DotDetectorAlgorithm_Counter.cs" />
     <Compile Include="DotDetection\DotDetector_ResultObject.cs" />
     <Compile Include="DotDetection\HandDotDetector.cs" />
+    <Compile Include="DotDetection\Handetector_Threading.cs" />
     <Compile Include="DotDetection\IDotDetector.cs" />
+    <Compile Include="DotDetection\PixelGrabber_Rect.cs" />
     <Compile Include="GameSimulation\Building.cs" />
     <Compile Include="GameSimulation\Floor.cs" />
     <Compile Include="GameSimulation\GameSimulator.cs" />

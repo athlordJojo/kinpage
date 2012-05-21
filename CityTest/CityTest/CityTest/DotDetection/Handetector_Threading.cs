@@ -184,7 +184,7 @@ namespace KinectProject
             {
                 Boolean dotDetected = false;
                 List<Color> l = null;
-                int startValue = 50;// startwert aus dem die suche nach dem punkt beginnt
+                int startValue = 150;// startwert aus dem die suche nach dem punkt beginnt
                 int endValue = 150;// maximaler wert des Rechtecks in dem nach dem Punkt gesucht wird
                 int stepSize = 50;// groesse um die das rechteck erhoeht wird, wenn der punkt nicht gefunden wurde
 
