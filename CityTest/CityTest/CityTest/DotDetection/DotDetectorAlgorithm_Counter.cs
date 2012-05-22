@@ -6,17 +6,19 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 namespace KinectProject
 {
-    class DotDetectorAlgorithm_Counter:AbstractDotDetector
+    class DotDetectorAlgorithm_Counter : AbstractDotDetector
     {
         Boolean debug = false;
         List<Color> colorList = new List<Color>();
-        private int pixelCounterThreshold = 40;//alt = 70;
-        
+        private int pixelCounterThreshold = 60;//alt = 70;
+
         //variabeln für helligkeitsbestimmung
-        Double r = 0, g = 0, b = 0, y=0;
-        
-        public DotDetectorAlgorithm_Counter(String colorString):base(colorString){
-        
+        Double r = 0, g = 0, b = 0, y = 0;
+
+        public DotDetectorAlgorithm_Counter(String colorString)
+            : base(colorString)
+        {
+
         }
 
         public override void addAllColors(List<Color> list)
@@ -94,7 +96,7 @@ namespace KinectProject
                 }
 
             }
-            Boolean reddotDetected = pixelCounter > pixelCounterThreshold; 
+            Boolean reddotDetected = pixelCounter > pixelCounterThreshold;
 
             if (debug)
             {
@@ -108,7 +110,7 @@ namespace KinectProject
         public override void reset()
         {
             this.colorList.Clear();
-            
+
             this.r = 0;
             this.g = 0;
             this.b = 0;

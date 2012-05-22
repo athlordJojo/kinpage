@@ -21,14 +21,14 @@ namespace KinectProject
 
         KinectSensor kinectSensor { get; set; }
         public AbstractDotDetector dotDetector = null;
-        private String detectionColor = AbstractDotDetector.detectBlueDot;
+        private String detectionColor = AbstractDotDetector.detectRedDot;
         public ManualResetEvent _doneEvent { get; set; }
 
         public DotDetector_ResultObject r { get; set; }
         PixelGrabber_Rect grabber = new PixelGrabber_Rect();
 
         private int outlinerValue = 0;
-        private int outlinerThreshold = 12;
+        private int outlinerThreshold = 2;
         public Boolean isDebugMode { get; set; }
         private int mode = -1;
         public Handetector_Threading(KinectSensor kinectSensor, int mode, Boolean isDebug)
@@ -44,7 +44,8 @@ namespace KinectProject
 
         public void findDot(Object threadContext)
         {
-            if(mode == 0){
+            if (mode == 0)
+            {
                 findDot_RectangleMode((Vector2)threadContext);
             }
             else if (mode == 1)
@@ -135,7 +136,7 @@ namespace KinectProject
                                 maskY += yOffset;
                                 calcPos = ((maskY * colorImageFrameWidth) + maskX) * 4;// *4 da das im fabrpixel array ein pixel durch 4 werte dargestellt wird
 
-                                if (calcPos>= 0 &&  calcPos + 2 < pixelAnzahl)
+                                if (calcPos >= 0 && calcPos + 2 < pixelAnzahl)
                                 {
                                     c = new Color(pixelsFromFrame[calcPos + 2], pixelsFromFrame[calcPos + 1], pixelsFromFrame[calcPos]);
                                     dotDetector.addColor(c);
@@ -169,7 +170,7 @@ namespace KinectProject
                 r.blueMode = dotDetector.blueMode;
                 r.dotDetected = dotDetected;
                 r.usedSize = redDotDetectionArea.Width;
-                if(isDebugMode)r.usedColorObjects = colorList.ToList();
+                if (isDebugMode) r.usedColorObjects = colorList.ToList();
                 r.usedSize = redDotDetectionArea.Width;
                 _doneEvent.Set();
             }
@@ -188,7 +189,7 @@ namespace KinectProject
                 int endValue = 150;// maximaler wert des Rechtecks in dem nach dem Punkt gesucht wird
                 int stepSize = 50;// groesse um die das rechteck erhoeht wird, wenn der punkt nicht gefunden wurde
 
-                int actualValue = -1, lastValue = 0 ;
+                int actualValue = -1, lastValue = 0;
                 grabber.pixelsFromFrame = pixelsFromFrame;
                 grabber.colorImageFrame = colorImageFrame;
                 for (actualValue = startValue; actualValue <= endValue; actualValue += stepSize)
@@ -222,17 +223,17 @@ namespace KinectProject
                 Boolean bolterTrue = outlinerValue > 0;
                 if (!dotDetected && bolterTrue)
                 {
-                    Console.WriteLine("Ausreisser behandelt: " + DateTime.Now);
+                    //Console.WriteLine("Ausreisser behandelt: " + DateTime.Now);
                 }
                 r.dotDetected = dotDetected || bolterTrue;
 
                 if (isDebugMode)
                 {
                     r.usedSize = lastValue;
-                    Console.WriteLine(DateTime.Now - start);
+                    //Console.WriteLine(DateTime.Now - start);
                     r.usedColorObjects = l.ToList();
                 }
-                
+
                 _doneEvent.Set();
             }
         }

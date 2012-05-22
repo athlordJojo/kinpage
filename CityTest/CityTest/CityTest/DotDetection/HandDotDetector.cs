@@ -16,19 +16,20 @@ namespace KinectProject
         Rectangle redDotDetectionArea = new Rectangle(0, 0, 0, 0);
 
         int neededPixels = -1;// 0= rectangle mode, 1= depthmode
-
+        int eventCounter = 0;
+        int eventcouterThreshold { get; set; }
         // thresholddetection
         int detectedDotsInRow = 0;
         int detectedDotsInRow_Threshold = 50;// in 50 frames muss der punkt erkannt werden, damit gesagt wird: Threshold detected
         public Boolean ready { get; set; }
-        public Boolean startThresholdSearch {get; set;}
+        public Boolean startThresholdSearch { get; set; }
 
         KinectSensor kinectSensor = null;
 
         Handetector_Threading detector_1 = null;
         Handetector_Threading detector_2 = null;
         int mode = -1;
-        public Boolean isDebugMode {get; set;}
+        public Boolean isDebugMode { get; set; }
         public HandDotDetector(KinectSensor k, Boolean _isDebug)
         {
             this.kinectSensor = k;
@@ -42,10 +43,21 @@ namespace KinectProject
             isDebugMode = _isDebug;
             detector_1 = new Handetector_Threading(kinectSensor, mode, isDebugMode);
             detector_2 = new Handetector_Threading(kinectSensor, mode, isDebugMode);
+            this.eventcouterThreshold = 10;
         }
 
         public DotDetector_ResultObject[] dotDetected(Vector2[] handPositions, AllFramesReadyEventArgs e)
         {
+
+            if (eventCounter == eventcouterThreshold)
+            {
+                eventCounter = 0;
+            }
+            else
+            {
+                eventCounter++;
+                return results;
+            }
             DateTime start = DateTime.Now;
 
             //this.handPositions = handPositions;
@@ -115,7 +127,8 @@ namespace KinectProject
                 startThresholdSearch = !startThresholdSearch;
             }
 
-            DotDetector_ResultObject[] r =  this.dotDetected(handPositions, e);
+            eventCounter = eventcouterThreshold;// damit bei der threshold erkennung alle events verwendet werden
+            DotDetector_ResultObject[] r = this.dotDetected(handPositions, e);
             if (r == null) return null;
 
             if (!r[0].dotDetected)// ist in rechter hand etwas entdeckt worden ? nein
